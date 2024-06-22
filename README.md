@@ -34,13 +34,12 @@ Initial data exploration involved examining the spread of polling data, calculat
 
 1. The first step is to use use the 2020 and 2016 national data to calculate the polling bias in 2020 and 2016, respectively.
 
-![State Summary 2020](supporting_images/analysis1.png)
-![State Summary 2016](supporting_images/analysis2.png)
-
+<img src="supporting_images/analysis1.png" alt="State Summary 2020" width="300">.<img src="supporting_images/analysis2.png" alt="State Summary 2016" width="450">
 
 2) Using the above states summaries for 2020 and 2016, we can see that the spread for each of the state to be -
-![2020 State Polls](output_images/State_Summary_2020.png)
-![2016 State Polls](output_images/State_Summary_2016.png)
+
+
+<img src="output_images/State_Summary_2020.png" alt="2020 State Polls" width=40%>.<img src="output_images/State_Summary_2016.png" alt="2016 State Polls" width=40%>
 
 3) We’ll build the forecast model. Many of the states do not have polling yet. To deal with this we’re going to supplement the 2020 polls with the 2016 actual results. To try to get a better estimate of where these states may actually be polling we’ll apply an adjustment to the 2016 actual results based on the 2020 national polling.
 
@@ -78,11 +77,11 @@ P($\theta$\|D) $\propto$ P($\theta$) x P(D\|$\theta$)\
 
 The Monte Carlo simulation indicated that Biden was the favorite to win the election with a 55% chance. The final prediction model gave Biden a 54.6% probability of winning, while Trump had a 45.4% probability.
 
-![Predicted 2020 Election Results](supporting_images/result.png)
+<img src="supporting_images/result.png" alt="Predicted 2020 Election Results" width=50%>
 
-![Distribution of the Spread](output_images/Distribution_of_the_Spread.png)
+<img src="output_images/Distribution_of_the_Spread.png" alt="Distribution of the Spread" width=50%>
 
-![PDF of Election Outcomes.png](output_images/PDF_of_Election_Outcomes.png)
+<img src="output_images/PDF_of_Election_Outcomes.png" alt="PDF of Election Outcomes.png" width=50%>
 
 ## Conclusion
 
