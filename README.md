@@ -34,11 +34,13 @@ Initial data exploration involved examining the spread of polling data, calculat
 
 1. The first step is to use use the 2020 and 2016 national data to calculate the polling bias in 2020 and 2016, respectively.
 
-![State Summary 2020](supporting_images/analysis1.png)[State Summary 2016](supporting_images/analysis2.png)
+![State Summary 2020](supporting_images/analysis1.png)
+![State Summary 2016](supporting_images/analysis2.png)
 
 
 2) Using the above states summaries for 2020 and 2016, we can see that the spread for each of the state to be -
-![2020 State Polls](output_images/State_Summary_2020.png)[2016 State Polls](output_images/State_Summary_2016.png)
+![2020 State Polls](output_images/State_Summary_2020.png)
+![2016 State Polls](output_images/State_Summary_2016.png)
 
 3) We’ll build the forecast model. Many of the states do not have polling yet. To deal with this we’re going to supplement the 2020 polls with the 2016 actual results. To try to get a better estimate of where these states may actually be polling we’ll apply an adjustment to the 2016 actual results based on the 2020 national polling.
 
@@ -78,9 +80,9 @@ The Monte Carlo simulation indicated that Biden was the favorite to win the elec
 
 ![Predicted 2020 Election Results](supporting_images/result.png)
 
-![Distribution of the Spread]('output_images/Distribution_of_the_Spread.png')
+![Distribution of the Spread](output_images/Distribution_of_the_Spread.png)
 
-![PDF of Election Outcomes.png]('output_images/PDF_of_Election_Outcomes.png')
+![PDF of Election Outcomes.png](output_images/PDF_of_Election_Outcomes.png)
 
 ## Conclusion
 
