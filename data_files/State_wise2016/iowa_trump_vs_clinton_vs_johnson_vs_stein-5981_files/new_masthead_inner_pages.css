@@ -1,0 +1,103 @@
+.alpha-wrapper .site-logo .rcp-mobile-logo{
+    display:none;
+}
+.btn-subscribe {
+    display:none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .alpha-wrapper .site-logo .ss{
+        display:none !important;
+    }
+    .alpha-wrapper .site-logo .rcp-mobile-logo {
+        display: block;
+        width: 190px;
+        margin-top: 15px;
+        margin-bottom: 12px;
+    }
+
+    .alpha-wrapper .site-logo {
+        height: auto;
+        text-align: center;
+        margin: auto;
+        width: 215px;
+    }
+    .verticals-menu {
+        top: 18px;
+        left: 45px;
+        width: 25px;
+    }
+    .verticals-site-list{
+        left:0;
+    }
+
+    .site-nav-more img.jQ-section-menu {
+        width: 24px;
+        display: block;
+        border-right: 2px solid #888;
+        height: 23px;
+        padding-right: 5px;
+    }
+    .site-nav-more ul.primary {
+        left: 0px;
+    }
+
+    #masthead .beta-wrapper{
+        margin: unset;
+        right: unset;
+        left: 10px;
+        top: 8px;
+        width: 45px;
+    }
+
+    .ad-free-shield img {
+        width: 100%;
+    }
+
+    .btn-subscribe {
+        display: initial;
+        position: absolute;
+        right:10px;
+        width: 80px;
+        top: 19px;
+        cursor: pointer;
+    }
+    .btn-subscribe a {
+        padding: 3px 6px;
+        background: #d30015;
+        color: #fff;
+    }
+    .site-nav-more .sections-tab{
+        right:10px;
+    }
+
+    .site-nav-more ul.primary {
+        left: 0px;
+        border-top: 0;
+    }
+    .site-nav-more .sections-tab{
+        top:28px;
+        bottom:unset;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .alpha-wrapper .site-logo {
+        height: auto;
+        width: 165px;
+        margin:auto;
+    }
+    .alpha-wrapper .site-logo .rcp-mobile-logo {
+        width: 150px;
+        margin-top: 16px;
+    }
+
+}
+
+@media only screen and (min-width: 678px){
+    .verticals-menu{
+        left:320px;
+    }
+}
