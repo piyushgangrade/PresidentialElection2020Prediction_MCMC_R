@@ -381,9 +381,10 @@ mcmc <- function(alpha, beta, n, theta0){
 
 theta_chain <- mcmc(1, 1, 10000, 0.5)
 
-ggplot(data.frame(theta_chain), aes(x = theta_chain)) +
-  geom_histogram(binwidth = 0.01, fill = "orange") +
-  labs(title = "Distribution of the Spread", x = "Spread", y = "Count") +
+ggplot(data.frame(dist_multiplier), aes(x = dist_multiplier)) +
+  geom_histogram(binwidth = 0.1, fill = "orange") +
+  stat_function(fun = dnorm, args = list(mean = 0, sd = 1), color = "blue", size = 1) + 
+  labs(title = "Distribution of the Spread", x = "Spread", y = "Count") + 
   theme(plot.title = element_text(hjust = 0.5))
 
 win_table <- results %>% 
